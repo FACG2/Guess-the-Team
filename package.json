@@ -1,0 +1,26 @@
+{
+  "name": "Guess-the-Team",
+  "version": "1.0.0",
+  "description": "football team guessing game .",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACG2/Guess-the-Team.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACG2/Guess-the-Team/issues"
+  },
+  "homepage": "https://github.com/FACG2/Guess-the-Team#readme",
+  "dependencies": {
+    "tape": "^4.7.0"
+  }
+}
