@@ -1,5 +1,5 @@
-/* global console*/
 
+/* global console*/
 var run = (function(){
 dom(function(team){
   var correctAnswer = team.toLowerCase();
