@@ -1,7 +1,7 @@
-(function() {
+var dom = function(cb) {
   teamName.getRandomTeam(function(team) {
     loadDoc(team,function(gifs){
-      console.log(gifs);
+      cb(team);
     })
   });
-})();
+};
