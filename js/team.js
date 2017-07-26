@@ -14,7 +14,14 @@
 
    getRandomTeam: function(cb) {
       this.getTeamsList(function(res){
-       var team = res[Math.floor(Math.random() * 20) + 1].shortName;
+       var team = res[Math.floor(Math.random() * 20)].shortName;
+       if (team==="ManCity") team = "Manchester City";
+       else if (team==="Crystal") team = "Crystal Palace";
+       else if(team==="West Ham") team = "WestHam";
+       else if(team==="ManU") team = "Manchester United";
+       else if(team==="Swans") team = "Swansea City";
+       else if(team==="Spurs") team = "Tottenham";
+       else if(team==="Foxes") team = "Leicester City";
         cb(team);
    })
  }
