@@ -5,6 +5,7 @@ var dom = function(cb) {
       gifs.forEach(function(gif, i) {
         var newdiv = document.createElement("img");
         newdiv.src = gif.images.fixed_height_small.url;
+        
         newdiv.classList.add("gif" + i);
         gifcontainer.appendChild(newdiv);
       })

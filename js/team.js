@@ -1,4 +1,6 @@
- var url = 'http://api.football-data.org/v1/competitions/445/teams';
+ //var url = 'http://api.football-data.org/v1/competitions/445/teams';
+ var url = 'http://api.football-data.org/v1/competitions/405/teams';
+
  var teamName = {
 
   //  randomNumber: function(limit) {

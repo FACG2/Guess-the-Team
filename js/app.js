@@ -1,3 +1,5 @@
+
+/* global console*/
 var run = (function(){
 dom(function(team){
   var correctAnswer = team.toLowerCase();
@@ -6,18 +8,53 @@ dom(function(team){
   var submit = document.querySelector('.guess-btn');
   var giveup = document.querySelector('.giveup-btn');
 
-  submit.addEventListener("click", function(){
+  var modal = document.getElementById('myModal');
+  var closeModal = document.getElementsByClassName('close')[0];
+  var modalText = document.getElementById('modalText');
+  var mContent = document.getElementsByClassName('modal-content')[0];
+
+  submit.addEventListener("click", function(event){
+    event.preventDefault();
     var answer = text.value;
     if (answer === correctAnswer) {
-      alert("Correct Answer");
-      location.reload();
+      modal.style.display = "block";
+      mContent.style.backgroundColor = '#00ff90';
+      closeModal.focus();
+      modalText.innerText = 'Success! The Team is ' + answer;
+      mContent.style.color = '#000';
+      closeModal.textContent= 'OK';
+      closeModal.onclick = function() {
+        modal.style.display = "none";
+        location.reload();
+      };
     }
-    else alert("Wrong Answer! Try Again");
+    else {
+      modal.style.display = "block";
+      closeModal.focus();
+      mContent.style.backgroundColor = '#ff0070';
+      modalText.innerText = 'Try again'
+      closeModal.textContent= 'OK';
+      closeModal.onclick = function() {
+        modal.style.display = "none";
+      };
+    }
+
   });
 
-  giveup.addEventListener("click", function(){
-    alert("Correct Answer is "+correctAnswer);
+  giveup.addEventListener("click", function(event){
+    event.preventDefault();
+     closeModal.focus();
+     modal.style.display = "block";
+     modalText.innerText = 'The Team was ' + correctAnswer;
+     closeModal.textContent= 'OK';
+     closeModal.onclick = function() {
+       modal.style.display = "none";
+       location.reload();
+
+     };
   })
+
+
 
 })
 })();
