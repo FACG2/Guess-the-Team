@@ -6,7 +6,7 @@
   //  },
 
    getTeamsList: function(cb) {
-     request(url, function(response) {
+     request('football-data',url, function(response) {
        var res =response.teams;
     cb(res);
      });

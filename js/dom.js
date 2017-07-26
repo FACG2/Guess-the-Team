@@ -1,5 +1,7 @@
 (function() {
   teamName.getRandomTeam(function(team) {
-    console.log(team);
+    loadDoc(team,function(gifs){
+      console.log(gifs);
+    })
   });
 })();
