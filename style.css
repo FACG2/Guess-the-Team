@@ -1,10 +1,11 @@
 body {
   margin:0 auto;
-  background: #f5f6f6; /* Old browsers */
-  background: -moz-linear-gradient(45deg, #f5f6f6 0%, #dbdce2 21%, #b8bac6 37%, #b8bac6 48%, #b8bac6 62%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 37%,#b8bac6 48%,#b8bac6 62%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #f5f6f6 0%,#dbdce2 21%,#b8bac6 37%,#b8bac6 48%,#b8bac6 62%,#dddfe3 80%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  color: white;
+  /*background: rgb(144,186,228); /* Old browsers */
+  /*background: -moz-linear-gradient(-45deg, rgba(144,186,228,1) -1%, rgba(184,225,252,1) 0%, rgba(144,186,228,1) 0%, rgba(169,210,243,1) 10%, rgba(144,188,234,1) 37%, rgba(144,191,240,1) 50%, rgba(162,218,245,1) 83%, rgba(189,243,253,1) 100%); /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(-45deg, rgba(144,186,228,1) -1%,rgba(184,225,252,1) 0%,rgba(144,186,228,1) 0%,rgba(169,210,243,1) 10%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(135deg, rgba(144,186,228,1) -1%,rgba(184,225,252,1) 0%,rgba(144,186,228,1) 0%,rgba(169,210,243,1) 10%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#90bae4', endColorstr='#bdf3fd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */color: white;
+  background: #399FD6;
   font-family: 'Bree Serif', serif;
 }
 .main-header{
@@ -24,13 +25,14 @@ h2 {
   text-align: center;
   margin: 0 auto;
   font-weight: 400;
+  text-shadow: 2px 2px #999999;
 }
 input[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
-  height: 18px;
-  width: 80vh;
+  height: 5%;
+  width: 30%;
   padding: 10px;
   border: 1px solid #ddd;
   background: #fff;
@@ -44,10 +46,12 @@ button {
   color: #004799;
   font-size: 22px;
   font-style: oblique;
+  font-weight: 600;
   margin: 0;
   font-family: Lato, sans-serif;
   cursor: pointer;
   padding: 11px;
+
 }
 button:hover {
   color: #0FC57C;
@@ -56,6 +60,21 @@ button:hover {
   display: block;
   text-align: center;
 }
-container{
-  display: flex;
+.search-results{
+  margin: 2%;
+  text-align: center;
+}
+.gif0, .gif1, .gif2, .gif3, .gif4, .gif5{
+  padding: 5px;
+}
+.show-result{
+text-align: center;
+}
+.red{
+  background-color: red;
+  color: white;
+}
+.green{
+  background-color: green;
+  color: white;
 }
