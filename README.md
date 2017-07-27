@@ -3,6 +3,7 @@ football team guessing game .
 
 ## Introduction Idea
   we make website to show you 6 Gif images for any player on football team and you guessing which team is it .
+  
 
 ## User Stories
 
@@ -68,4 +69,4 @@ idea of how to implement them later in my GIF-only chats with my GIF-loving frie
 ![](https://0r2ctg.bn1302.livefilestore.com/y4mon7c8cAt5BmGZgLNE4t5LAoGHP42y0dss7-Yh1FWc1wXB7vkn-S45m8W39om6vLVnOIUjEfYwjm-5VEgml0wBl4j_EEbfTylH4wtujg4HHKeuO1u6Kk94-wcJXD1lYsGqIyDzPl-LJH1Xb6mbzX-oBce0JkUwTzqlCUU8U6VGxH7p1kV3GRk_TZW0uBtRfX5myq5kgyehbDhyzxTi2clXg?width=511&height=714&cropmode=none)
 
 
-#### Let's discover the app : [click here](https://facg2.github.io/Guess-the-Team)
+#### This is the project Task : [click here](https://github.com/FACG2/Guess-the-Team/issues/2)
