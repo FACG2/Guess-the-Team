@@ -75,9 +75,4 @@ idea of how to implement them later in my GIF-only chats with my GIF-loving frie
 ## Sketches
 ![](https://0r2ctg.bn1302.livefilestore.com/y4mon7c8cAt5BmGZgLNE4t5LAoGHP42y0dss7-Yh1FWc1wXB7vkn-S45m8W39om6vLVnOIUjEfYwjm-5VEgml0wBl4j_EEbfTylH4wtujg4HHKeuO1u6Kk94-wcJXD1lYsGqIyDzPl-LJH1Xb6mbzX-oBce0JkUwTzqlCUU8U6VGxH7p1kV3GRk_TZW0uBtRfX5myq5kgyehbDhyzxTi2clXg?width=511&height=714&cropmode=none)
 
-
-<<<<<<< HEAD
 #### This is the project Task : [click here](https://github.com/FACG2/Guess-the-Team/issues/2)
-=======
-#### This is the project Tasks : [click here](https://github.com/FACG2/Guess-the-Team/issues/2)
->>>>>>> 7783cb16f702c62a42f457d58fc1365b13fdc29b
